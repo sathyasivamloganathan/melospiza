@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --logo-color:rgb(228, 66, 228);
+}
+
+#navbar_main{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar-brand{
+    color:var(--logo-color);
+}
+.navbar,li,a{
+    color: white;
+}
+.navbar,li,a:hover{
+    color: white;
+}
+
+.navbar-brand:hover{
+    background: none;
+}
+
+#navbarNav{
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+
+.navbar-toggler{
+    background: var(--logo-color);
+    height: 30px;
+    width: 45px;
+    padding-left: 4px;
+    border-left-width: 0px;
+    padding-right: 0px;
+    color: white;
+}
+
+.navbar-nav,li{
+    margin-left: 15px;
+}
+
+.underline:after{
+    content: "";
+    display: block;
+    background-color: var(--logo-color);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.underline:hover:after{
+    width: 100%;
+}
+
+
+
+.home-img{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(images/medeiros.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-img{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 90% 90%/0 0 20% 20%;
+}
+
+.home-img{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img,.h2{
+    color: white;
+}
