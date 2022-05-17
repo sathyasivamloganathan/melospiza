@@ -32,6 +32,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Montserrat&family=My+Soul&family=Oleo+Script+Swash+Caps&family=PT+Sans:wght@400;700&family=Tapestry&display=swap');
     </style>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -51,15 +52,15 @@
 
 
                     <li class="nav-item">
-                        <a class="nav-link underline" href="#">    About Us</a>
+                        <a class="nav-link underline" href="#aboutus">    About Us</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link underline" href="#">    Members</a>
+                        <a class="nav-link underline" href="#carouselExampleIndicators">    Members</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link underline" href="#">    Contact Us</a>
+                        <a class="nav-link underline" href="#contactus">    Contact Us</a>
                     </li>
 
                 </ul>
@@ -69,13 +70,13 @@
 
     <section class="home-img ">
 
-        <h2 class="home-title"><br>CLINICAL WORK CULTURE</br>AND GRATIFIED CLIENTS<span style="color: rgb(150 76 154)"> !</span></h2>
+        <h2 class="home-title" data-aos="fade-up" data-aos-duration="2000"><br>CLINICAL WORK CULTURE</br>AND GRATIFIED CLIENTS<span style="color: rgb(150 76 154)"> !</span></h2>
 
     </section>
 
 
 
-    <div class="container about_container">
+    <div class="container about_container" data-aos="zoom-in-up" data-aos-duration="1000" id="aboutus">
 
         <div class="about">
             <p class="about_us_title"><i class="fa fa-comments-o" style="color: #e083ff;"></i> About Us</p>
@@ -95,11 +96,11 @@
 
 
 
-    <div class="members">
+    <div class="members" data-aos="fade-down" data-aos-duration="1200">
         <p>Members at <span style="color: #e083ff;">Melospiza</span></p>
     </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="fade-down" data-aos-duration="1800">
         <ol class="carousel-indicators " id="carousel-indicators-rounded">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -246,12 +247,12 @@
 
 
 
-    <div class="footer">
+    <div class="footer" id="contactus">
         <div class="inner_footer">
             <div class="footer-name"><img class="footer-img" src="images/melospiza_logo.png" alt="">Melospiza</div>
             <div class="connect">
                 <p class="col">
-                    1/c, Thandalam, Poonamale<br> Rajalakshmi Institute of Technology
+                    1/c, Thandalam, Poonamale,<br> Rajalakshmi Institute of Technology
                 </p>
 
                 <p class="col">
@@ -272,6 +273,12 @@
             </div>
         </div>
     </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
