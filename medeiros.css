@@ -327,19 +327,18 @@ i {
 
 .footer {
     width: 100%;
-    height: 400px;
+    height: 500px;
     background: var(--black);
     font-family: 'Montserrat', sans-serif;
 }
 
 .footer-img {
     width: 100px;
-    margin-top: 40px;
 }
 
 .footer-name {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     font-size: 45px;
 }
 
