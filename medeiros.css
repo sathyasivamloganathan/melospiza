@@ -5,14 +5,20 @@
     --border: #e083ff;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 #navbar_main {
-    /* position: fixed; */
+    position: fixed;
     z-index: 1;
     width: 100%;
     position: fixed;
     z-index: 1;
     background: black;
     width: 100%;
+    padding-bottom: 0px;
 }
 
 .navbar-brand {
@@ -20,6 +26,19 @@
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
+}
+
+.nav-bar-logo {
+    width: 60px;
+}
+
+@media screen and (max-width:770px) {
+    .navbar-brand {
+        font-size: 25px;
+    }
+    .nav-bar-logo {
+        width: 50px;
+    }
 }
 
 .navbar,
@@ -188,19 +207,28 @@ li {
     font-size: 23px;
 }
 
+.members p {
+    margin-top: 120px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -40px;
+}
+
 .profile-area {
     padding: 80px 0;
     width: 80%;
     margin: auto;
 }
 
-.card {
+.box-shadow {
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 21px;
 }
 
 .img-1 {
-    height: 320px;
+    height: 300px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     width: 100%;
@@ -211,8 +239,8 @@ li {
     display: block;
     margin: auto;
     z-index: 1;
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: #ba9dce;
     border: 7px solid #fff;
@@ -221,11 +249,11 @@ li {
 
 .card:hover .img-2 {
     border-color: var(--logo-color);
-    transition: .4s;
+    transition: .4s ease-in;
 }
 
 .main-text {
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -238,13 +266,23 @@ i {
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .card-1 {
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
+}
+
+.card-1 {
+    max-width: 340px;
+}
+
+.box-shadow {
+    border-radius: 21px;
+    background: #ffffff;
+    box-shadow: 8px 8px 10px #964c9a, -3px -3px 5px #964c9a;
 }
 
 .members {
@@ -256,16 +294,14 @@ i {
     letter-spacing: 2px;
 }
 
-.main-text h2 h4 {
+.main-text h2 {
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.main-text h2 {
-    font-size: 28px;
-}
-
 .main-text h4 {
-    font-size: 23px;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-text h4 span {
@@ -283,4 +319,64 @@ i {
     .card-1 {
         width: 100%;
     }
+}
+
+.project {
+    width: 200px;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background: var(--black);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-img {
+    width: 100px;
+    margin-top: 40px;
+}
+
+.footer-name {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+}
+
+.connect {
+    text-align: center;
+}
+
+@media screen and (max-width:770px) {
+    .footer-name {
+        font-size: 30px;
+    }
+    .footer-img {
+        width: 80px;
+    }
+}
+
+.icons {
+    font-size: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+.instagram,
+.linkedin {
+    padding-right: 30px;
+}
+
+.linkedin:hover {
+    color: white;
+    transition: .3s ease-in;
+}
+
+.instagram:hover {
+    color: white;
+    transition: .3s ease-in;
 }
