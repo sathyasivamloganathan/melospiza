@@ -14,6 +14,17 @@ html {
     scroll-behavior: smooth;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+}
+
+.arrow {
+    font-size: 50px;
+    color: white;
+}
+
 #navbar_main {
     position: fixed;
     z-index: 1;
@@ -394,6 +405,7 @@ i {
 .linkedin {
     padding-right: 30px;
     padding-left: 30px;
+    color: #c26ec6;
 }
 
 .linkedin:hover {
@@ -404,4 +416,32 @@ i {
 .instagram:hover {
     color: white;
     transition: .3s ease-in;
+}
+
+.contact_us {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.email {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.phone {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact_icon {
+    padding-right: 10px;
 }
