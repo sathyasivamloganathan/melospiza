@@ -14,6 +14,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* Fixed Arrow*/
+
 .back-to-top {
     position: fixed;
     bottom: 25px;
@@ -24,6 +27,9 @@ html {
     font-size: 50px;
     color: white;
 }
+
+
+/* Navigation bar */
 
 #navbar_main {
     position: fixed;
@@ -111,6 +117,9 @@ li {
     width: 100%;
 }
 
+
+/* Home Image */
+
 .home-img {
     background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(images/medeiros.jpg);
     width: 100%;
@@ -167,6 +176,9 @@ li {
     }
 }
 
+
+/* About us */
+
 .about {
     color: var(--border);
     text-align: center;
@@ -221,6 +233,9 @@ li {
     font-family: 'Montserrat', sans-serif;
     font-size: 23px;
 }
+
+
+/* Members page */
 
 .members p {
     margin-top: 120px;
@@ -336,6 +351,9 @@ i {
     }
 }
 
+
+/* Our Projects */
+
 .our-project p {
     font-size: 23px;
     font-family: 'Montserrat', sans-serif;
@@ -360,6 +378,40 @@ i {
     background: white;
     border-radius: 20px;
 }
+
+
+/* Contact Us */
+
+.contact_us {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.email {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.phone {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact_icon {
+    padding-right: 10px;
+}
+
+
+/* Footer */
 
 .footer {
     width: 100%;
@@ -416,32 +468,4 @@ i {
 .instagram:hover {
     color: white;
     transition: .3s ease-in;
-}
-
-.contact_us {
-    font-size: 23px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-align: center;
-    margin-top: 70px;
-}
-
-.email {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    color: white;
-}
-
-.phone {
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.contact_icon {
-    padding-right: 10px;
 }
