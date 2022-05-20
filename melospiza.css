@@ -395,7 +395,6 @@ i {
     text-align: center;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
     color: white;
 }
 
@@ -403,6 +402,7 @@ i {
     font-size: 18px;
     color: white;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
 }
 
